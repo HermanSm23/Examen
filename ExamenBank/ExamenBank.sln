@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenBank", "ExamenBank\ExamenBank.csproj", "{1490825B-900F-4738-8285-694A20AF7C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.DAL", "Bank.DAL\Bank.DAL.csproj", "{BAA7D82E-1CB4-49BB-9F3C-9866AC94FD12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1490825B-900F-4738-8285-694A20AF7C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1490825B-900F-4738-8285-694A20AF7C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1490825B-900F-4738-8285-694A20AF7C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1490825B-900F-4738-8285-694A20AF7C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA7D82E-1CB4-49BB-9F3C-9866AC94FD12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA7D82E-1CB4-49BB-9F3C-9866AC94FD12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA7D82E-1CB4-49BB-9F3C-9866AC94FD12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA7D82E-1CB4-49BB-9F3C-9866AC94FD12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {584F4C1A-549F-4098-9748-FA9E748F62C5}
+	EndGlobalSection
+EndGlobal
