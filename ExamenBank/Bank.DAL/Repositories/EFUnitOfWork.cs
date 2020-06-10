@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Bank.DAL.Repositories
 {
-    public class EFUnitOfWork
+    public class EFUnitOfWork : IUnitOfWork
     {
         private DatabaseContext db;
         private InvidualPersonRepository InvidualPersonRepository;
@@ -51,7 +51,7 @@ namespace Bank.DAL.Repositories
             }
         }
 
-        public IRepository<Deposit> Deposits
+        public IRepository<Deposit> Deposit
         {
             get
             {

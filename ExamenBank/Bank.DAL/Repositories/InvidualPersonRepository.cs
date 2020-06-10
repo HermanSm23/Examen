@@ -1,4 +1,5 @@
 ﻿using Bank.DAL.Entities;
+using Bank.DAL.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Bank.DAL.Repositories
 {
-    public class InvidualPersonRepository
+    public class InvidualPersonRepository : IRepository<InvidualPerson>
     {
         private DatabaseContext db;
         public InvidualPersonRepository(DatabaseContext dbContext)

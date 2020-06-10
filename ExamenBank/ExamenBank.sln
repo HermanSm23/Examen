@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenBank", "ExamenBank\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.DAL", "Bank.DAL\Bank.DAL.csproj", "{BAA7D82E-1CB4-49BB-9F3C-9866AC94FD12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.BLL", "Bank.BLL\Bank.BLL.csproj", "{5548FC0D-6D29-45F1-B115-98F0AED9B61B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BAA7D82E-1CB4-49BB-9F3C-9866AC94FD12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAA7D82E-1CB4-49BB-9F3C-9866AC94FD12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAA7D82E-1CB4-49BB-9F3C-9866AC94FD12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5548FC0D-6D29-45F1-B115-98F0AED9B61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5548FC0D-6D29-45F1-B115-98F0AED9B61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5548FC0D-6D29-45F1-B115-98F0AED9B61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5548FC0D-6D29-45F1-B115-98F0AED9B61B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
